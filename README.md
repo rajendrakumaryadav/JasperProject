@@ -31,4 +31,8 @@ $F{name}
 ♤✪✪✪   Thanks for Checking this code.   ✪✪✪♤
 
 Code with ❤️️ by Rajendra Kumar R Yadav 😍😍
+<<<<<<< HEAD
 ***
+=======
+***
+>>>>>>> branch 'master' of https://github.com/rajendrakumaryadav/JasperProject
