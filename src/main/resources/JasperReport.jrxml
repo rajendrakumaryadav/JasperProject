@@ -221,12 +221,26 @@
 				</jr:table>
 			</componentElement>
 			<staticText>
-				<reportElement mode="Opaque" x="0" y="0" width="555" height="50" forecolor="rgba(124, 235, 225, 0.654902)" backcolor="#B59C9C" uuid="d45a4db1-0031-4250-9a76-8b42e986466b"/>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="40" forecolor="rgba(124, 235, 225, 0.654902)" backcolor="#B59C9C" uuid="d45a4db1-0031-4250-9a76-8b42e986466b"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="22"/>
+					<font size="33"/>
 				</textElement>
 				<text><![CDATA[Keywords Table Data]]></text>
 			</staticText>
+			<staticText>
+				<reportElement x="300" y="40" width="100" height="18" uuid="d1cd65fa-4602-417a-add6-9ddd3c551073"/>
+				<textElement textAlignment="Center">
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Size]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="410" y="40" width="100" height="18" uuid="e93fedeb-5d9c-41d9-9c24-fbef5c7c9add"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{KeywordsDataSource}.getRecordCount()]]></textFieldExpression>
+			</textField>
 		</band>
 		<band height="120">
 			<componentElement>
@@ -333,12 +347,26 @@
 				</jr:table>
 			</componentElement>
 			<staticText>
-				<reportElement mode="Opaque" x="1" y="20" width="551" height="40" forecolor="#D48F8E" backcolor="#B5EBDD" uuid="79abd730-5f44-4a72-ba77-c5ec47aabf6a"/>
+				<reportElement mode="Opaque" x="1" y="12" width="279" height="38" forecolor="#D48F8E" backcolor="#B5EBDD" uuid="79abd730-5f44-4a72-ba77-c5ec47aabf6a"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="33"/>
+					<font size="23"/>
 				</textElement>
 				<text><![CDATA[STATISTICS Database]]></text>
 			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="290" y="12" width="100" height="38" forecolor="#D48F8E" backcolor="#B5EBDD" uuid="ccb43480-3e53-4c39-bc9b-0eb7162fb5be"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="23"/>
+				</textElement>
+				<text><![CDATA[Size]]></text>
+			</staticText>
+			<textField>
+				<reportElement mode="Opaque" x="410" y="13" width="100" height="38" forecolor="#D48F8E" backcolor="#B5EBDD" uuid="eed5a828-e243-438a-8ea6-c4e409b51303"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="23"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{StatisticsDataSource}.getRecordCount()]]></textFieldExpression>
+			</textField>
 		</band>
 	</detail>
 	<columnFooter>
