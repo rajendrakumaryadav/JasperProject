@@ -1,5 +1,8 @@
 ### ♤✪✪✪♤ Jasper Report Project with Java to Generate a Project. ♤✪✪✪♤
 
+### Build Status
+[![Build Status](https://travis-ci.org/rajendrakumaryadav/JasperProject.svg?branch=master)](https://travis-ci.org/rajendrakumaryadav/JasperProject)
+
 - In this Project, I used simple Java and JDBC with MySQL.
 - Using Java, I am trying to generate PDF Report.
 
